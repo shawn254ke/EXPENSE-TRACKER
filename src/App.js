@@ -56,7 +56,7 @@ function App() {
     <div className="App" style={{ padding: "2rem" }}>
       <h1>Expense Tracker</h1>
 
-      {/* 🔍 Search Bar */}
+      {}
       <input
         type="text"
         placeholder="Search by name or description..."
@@ -65,7 +65,7 @@ function App() {
         style={{ marginBottom: "1rem", padding: "0.5rem", width: "300px" }}
       />
 
-      {/* ➕ Add Expense Form */}
+      {}
       <form onSubmit={handleAddExpense} style={{ marginBottom: "2rem" }}>
         <input
           type="text"
@@ -94,7 +94,7 @@ function App() {
         <button type="submit">Add Expense</button>
       </form>
 
-      {/* 📋 Expenses Table */}
+      {}
       <table border="1" cellPadding="10" style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
